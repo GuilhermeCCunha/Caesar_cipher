@@ -1,0 +1,35 @@
+#!/usr/bin/env ruby
+
+def main
+  if ARGV.empty?
+    puts 'Usage: ./ccipher <string> <shift "use negative value to decode">'
+    exit
+  end
+
+  str = ARGV[0]
+  ARGV[1].nil? ? shift = 1 : shift = ARGV[1].to_i
+
+  small_alphabet = ("a".."z").to_a
+  capital_alphabet = ("A".."Z").to_a
+  caesar = ""
+
+  str.each_char do |letter|
+    if small_alphabet.include? letter
+      old_idx = small_alphabet.find_index(letter)
+      new_idx = (old_idx + shift) % small_alphabet.count
+      caesar += small_alphabet[new_idx]
+
+    elsif capital_alphabet.include? letter
+      old_idx = capital_alphabet.find_index(letter)
+      new_idx = (old_idx + shift) % capital_alphabet.count
+      caesar += capital_alphabet[new_idx]
+
+    else
+      caesar += letter
+    end
+  end
+
+  puts caesar
+end
+
+main if __FILE__ == $PROGRAM_NAME
