@@ -1,0 +1,26 @@
+#!/usr/bin/env ruby
+
+def caesar_cipher(str, shift)
+  
+  small = ('a'..'z').to_a
+  capital = ('A'..'Z').to_a 
+
+  small_rotated = small.rotate(shift).join
+  capital_rotated = capital.rotate(shift).join
+
+  str.tr(small.join + capital.join, small_rotated + capital_rotated)
+end
+
+def main
+  if ARGV.empty?
+    puts 'Usage: ./cciphertr <string> <shift "use negative value to decode">'
+    exit
+  end
+
+  str = ARGV[0]
+  ARGV[1].nil? ? shift = 1 : shift = ARGV[1].to_i
+
+  puts caesar_cipher(str, shift)
+end
+
+main if __FILE__ == $PROGRAM_NAME
