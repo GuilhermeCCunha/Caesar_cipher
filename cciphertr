@@ -2,9 +2,10 @@
 
 def caesar_cipher(str, shift)
   
-  small = ('a'..'z').to_a
-  capital = ('A'..'Z').to_a 
+  small = ('a'..'z').to_a # small alphabet
+  capital = ('A'..'Z').to_a # capital alphabet 
 
+  # The cipher only encrypts letters; symbols, such as -, remain unencrypted.
   small_rotated = small.rotate(shift).join
   capital_rotated = capital.rotate(shift).join
 

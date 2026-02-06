@@ -24,7 +24,7 @@ def main
       new_idx = (old_idx + shift) % capital_alphabet.count
       caesar += capital_alphabet[new_idx]
 
-    else
+    else # The cipher only encrypts letters; symbols, such as -, remain unencrypted.
       caesar += letter
     end
   end
