@@ -4,3 +4,7 @@
 
 <br/> <br/>
 Caesar Cipher in Ruby
+
+## Author
+
+- GitHub: [@GuilhermeCCunha](https://github.com/GuilhermeCCunha)
