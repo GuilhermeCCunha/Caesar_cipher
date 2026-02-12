@@ -5,6 +5,14 @@
 <br/> <br/>
 Caesar Cipher in Ruby
 
+## Getting Started
+
+Clone or download zip file:
+
+```bash
+git clone https://github.com/GuilhermeCCunha/Caesar_cipher.git
+```
+
 ## Author
 
 - GitHub: [@GuilhermeCCunha](https://github.com/GuilhermeCCunha)
