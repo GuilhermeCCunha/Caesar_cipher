@@ -13,6 +13,12 @@ Clone or download zip file:
 git clone https://github.com/GuilhermeCCunha/Caesar_cipher.git
 ```
 
+You need to have Ruby installed on your Linux system.
+
+## Show your support
+
+Please ⭐️ this repository if you liked it!
+
 ## Author
 
 - GitHub: [@GuilhermeCCunha](https://github.com/GuilhermeCCunha)
