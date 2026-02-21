@@ -35,6 +35,8 @@ mkdir $HOME/bin
 mkdir -p $HOME/.local/bin
 ```
 
+## Solutions
+
 ## Demonstration
 
 ## Show your support
