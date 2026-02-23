@@ -27,7 +27,7 @@ fi
 export PATH
 ```
 
-Type the following command to create bin directory your home directory
+Type the following command to create bin directory in your home directory.
 
 ```bash
 mkdir $HOME/bin
@@ -35,7 +35,19 @@ mkdir $HOME/bin
 mkdir -p $HOME/.local/bin
 ```
 
+Type the following command to copy files to the new directory.
+
+```bash
+cp ccipher* $HOME/bin
+# or 
+cp ccipher* $HOME/.local/bin
+```
+
 ## Solutions
+
+### Algorithm solution 1
+
+### Algorithm solution 2
 
 ## Demonstration
 
