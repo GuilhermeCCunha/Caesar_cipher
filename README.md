@@ -47,6 +47,9 @@ cp ccipher* $HOME/.local/bin
 
 ### Algorithm solution 1
 
+The simple solution to this is to indicate to the numbers over 26 to wrap around and start over again with an index of 1, and not 25.
+The simple way to do this is to use the modulo (%).
+
 ### Algorithm solution 2
 
 ## Demonstration
