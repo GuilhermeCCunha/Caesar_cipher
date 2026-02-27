@@ -52,6 +52,9 @@ The simple way to do this is to use the modulo (%).
 
 ### Algorithm solution 2
 
+Array#rotate: Eliminates the need for the modulo (%) when shifting alphabet arrays. <br>
+String#tr: Handles substitution efficiently, including non-alphabetic characters (they are ignored).
+
 ## Demonstration
 
 ## Show your support
