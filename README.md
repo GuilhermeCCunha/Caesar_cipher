@@ -50,10 +50,14 @@ cp ccipher* $HOME/.local/bin
 The simple solution to this is to indicate to the numbers over 26 to wrap around and start over again with an index of 1, and not 25.
 The simple way to do this is to use the modulo (%).
 
+See the `ccipher` file for more details.
+
 ### Algorithm solution 2
 
 Array#rotate: Eliminates the need for the modulo (%) when shifting alphabet arrays. <br>
 String#tr: Handles substitution efficiently, including non-alphabetic characters (they are ignored).
+
+See the `cciphertr` file for more details.
 
 ## Demonstration
 
