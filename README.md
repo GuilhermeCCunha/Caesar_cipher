@@ -27,6 +27,12 @@ fi
 export PATH
 ```
 
+Enter the directory (folder) you've just cloned.
+
+```bash
+cd Caesar_cipher
+```
+
 Type the following command to create bin directory in your home directory.
 
 ```bash
@@ -34,7 +40,6 @@ mkdir $HOME/bin
 # or
 mkdir -p $HOME/.local/bin
 ```
-
 Type the following command to copy files to the new directory.
 
 ```bash
