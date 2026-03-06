@@ -68,6 +68,14 @@ See the `cciphertr` file for more details.
 
 ### Hello World
 
+#### Encoding
+
+![caesar_cipher_hello_encoding](https://github.com/user-attachments/assets/d01eefb2-5769-4ad2-8c0c-6959f911bea2)
+
+#### Decoding
+
+![caesar_cipher_hello_decoding](https://github.com/user-attachments/assets/15482899-72c9-4f2b-84f6-8886169aa3d4)
+
 ## Show your support
 
 Please ⭐️ this repository if you liked it!
