@@ -76,9 +76,20 @@ See the `cciphertr` file for more details.
 
 ![caesar_cipher_hello_decoding](https://github.com/user-attachments/assets/15482899-72c9-4f2b-84f6-8886169aa3d4)
 
-## The default shift value is 1
+### The default shift value is 1
 
 ![caesar_cipher_default_shift_value](https://github.com/user-attachments/assets/1b482944-50b6-4161-a96f-f5ffc26d4eb4)
+
+## Working with Files
+
+```bash
+ccipher "$(cat loremipsum.txt)" 3
+```
+
+```bash
+ccipher "$(cat loremipsum.txt)" 3 > loremipsum-encoded.txt
+```
+
 
 ## Show your support
 
