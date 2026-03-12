@@ -82,9 +82,15 @@ See the `cciphertr` file for more details.
 
 ## Working with Files
 
+### Command Substitution
+
+Encoding a file.
+
 ```bash
 ccipher "$(cat loremipsum.txt)" 3
 ```
+
+Encoding a file and creating a new one.
 
 ```bash
 ccipher "$(cat loremipsum.txt)" 3 > loremipsum-encoded.txt
