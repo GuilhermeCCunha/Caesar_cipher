@@ -96,6 +96,19 @@ Encoding a file and creating a new one.
 ccipher "$(cat loremipsum.txt)" 3 > loremipsum-encoded.txt
 ```
 
+### XARGS
+
+Encoding a file.
+
+```bash
+cat loremipsum.txt | xargs -0 -i ccipher {} 3
+```
+
+Encoding a file and creating a new one.
+
+```bash
+cat loremipsum.txt | xargs -0 -i ccipher {} 3 > loremipsum-encoded.txt
+```
 
 ## Show your support
 
