@@ -5,6 +5,24 @@
 <br/> <br/>
 Caesar Cipher in Ruby
 
+## Table of contents
+
+* [Getting Started](#getting-started)
+  * [Creating Custom Commands](#creating-custom-commands)
+* [Solutions](#solutions)
+  * [Algorithm solution 1](#algorithm-solution-1)
+  * [Algorithm solution 2](#algorithm-solution-2)
+* [Demonstration](#demonstration)
+  * [Hello World](#hello-world)
+    * [Encoding](#encoding)
+    * [Decoding](#decoding)
+  * [The default shift value is 1](#the-default-shift-value-is-1)      
+* [Working with Files](#working-with-files)
+  * [Command Substitution](#command-substitution)
+  * [XARGS](#xargs)
+* [Show your support](#show-your-support)
+* [Author](#author)
+
 ## Getting Started
 
 Clone or download zip file:
