@@ -1,4 +1,7 @@
 # Caesar Cipher
+🌏
+English |
+[**Português**][readme-pt-br]
 
 [![GitHub repo size][github-img]][github-url]
 [![GitHub last commit][github-commit]][github-url]
@@ -139,6 +142,7 @@ Please ⭐️ this repository if you liked it!
 
 - GitHub: [@GuilhermeCCunha](https://github.com/GuilhermeCCunha)
 
+[readme-pt-br]: https://github.com/GuilhermeCCunha/Caesar_cipher/blob/main/README.pt-br.md
 [github-img]: https://img.shields.io/github/repo-size/GuilhermeCCunha/Caesar_cipher?logo=github&style=flat-square
 [github-url]: https://github.com/GuilhermeCCunha/Caesar_cipher
 [github-commit]: https://img.shields.io/github/last-commit/GuilhermeCCunha/Caesar_cipher?logo=github&style=flat-square
