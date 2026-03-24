@@ -45,7 +45,11 @@ Caesar Cipher (Cifra de César) em Ruby
 
 #### Codificação
 
+![caesar_cipher_ola_encoding](https://github.com/user-attachments/assets/91095553-eaa2-4986-84b2-d733cba1f9ff)
+
 #### Decodificação
+
+![caesar_cipher_ola_decoding](https://github.com/user-attachments/assets/1ba02c08-f6ce-42bc-b61d-1b6a3e5288cf)
 
 ### O valor padrão do deslocamento é 1
 
