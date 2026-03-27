@@ -53,6 +53,8 @@ Caesar Cipher (Cifra de César) em Ruby
 
 ### O valor padrão do deslocamento é 1
 
+![caesar_cipher_default_shift_value](https://github.com/user-attachments/assets/1b482944-50b6-4161-a96f-f5ffc26d4eb4)
+
 ## Trabalhando com Arquivos
 
 ### Substituição de Comando
@@ -61,7 +63,11 @@ Caesar Cipher (Cifra de César) em Ruby
 
 ## Mostre seu apoio
 
+Por favor, marque com ⭐️ este repositório se você gostou!
+
 ## Autor
+
+- GitHub: [@GuilhermeCCunha](https://github.com/GuilhermeCCunha)
 
 [readme-en]: https://github.com/GuilhermeCCunha/Caesar_cipher/blob/main/README.md
 [github-img]: https://img.shields.io/github/repo-size/GuilhermeCCunha/Caesar_cipher?logo=github&style=flat-square
