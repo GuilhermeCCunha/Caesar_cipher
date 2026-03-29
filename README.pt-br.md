@@ -31,6 +31,12 @@ Caesar Cipher (Cifra de César) em Ruby
 
 ## Começando
 
+Clone o repositório ou faça o download do arquivo zip:
+
+```bash
+git clone https://github.com/GuilhermeCCunha/Caesar_cipher.git
+```
+
 ### Criando Comandos Personalizados
 
 ## Soluções
@@ -59,7 +65,31 @@ Caesar Cipher (Cifra de César) em Ruby
 
 ### Substituição de Comando
 
+Codificando um arquivo.
+
+```bash
+ccipher "$(cat loremipsum.txt)" 3
+```
+
+Codificando um arquivo e criando um novo.
+
+```bash
+ccipher "$(cat loremipsum.txt)" 3 > loremipsum-encoded.txt
+```
+
 ### XARGS
+
+Codificando um arquivo.
+
+```bash
+cat loremipsum.txt | xargs -0 -i ccipher {} 3
+```
+
+Codificando um arquivo e criando um novo.
+
+```bash
+cat loremipsum.txt | xargs -0 -i ccipher {} 3 > loremipsum-encoded.txt
+```
 
 ## Mostre seu apoio
 
