@@ -37,6 +37,8 @@ Clone o repositório ou faça o download do arquivo zip:
 git clone https://github.com/GuilhermeCCunha/Caesar_cipher.git
 ```
 
+É necessário ter o Ruby instalado no seu sistema Linux.
+
 ### Criando Comandos Personalizados
 
 ## Soluções
