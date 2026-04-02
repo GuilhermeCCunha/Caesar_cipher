@@ -41,6 +41,38 @@ git clone https://github.com/GuilhermeCCunha/Caesar_cipher.git
 
 ### Criando Comandos Personalizados
 
+Coloque o comando abaixo no seu arquivo .bashrc
+
+```bash
+# Ambiente específico do usuário
+if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
+    PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+fi
+export PATH
+```
+
+Acesse o diretório (pasta) que você acabou de clonar.
+
+```bash
+cd Caesar_cipher
+```
+
+Digite o seguinte comando para criar o diretório bin no seu diretório home.
+
+```bash
+mkdir $HOME/bin
+# ou
+mkdir -p $HOME/.local/bin
+```
+
+Digite o seguinte comando para copiar os arquivos para o novo diretório.
+
+```bash
+cp ccipher* $HOME/bin
+# ou 
+cp ccipher* $HOME/.local/bin
+```
+
 ## Soluções
 
 ### Primeira solução do algoritmo
