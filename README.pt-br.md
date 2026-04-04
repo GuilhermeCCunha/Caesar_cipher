@@ -77,6 +77,11 @@ cp ccipher* $HOME/.local/bin
 
 ### Primeira solução do algoritmo
 
+A solução mais simples para isso é indicar aos números acima de 26 que eles devem retornar ao início e recomeçar com um índice de 1, e não de 25. 
+A maneira mais simples de fazer isso é usar o operador módulo (%).
+
+Consulte o arquivo `ccipher` para obter mais detalhes.
+
 ### Segunda solução do algoritmo
 
 ## Demonstração
