@@ -84,6 +84,11 @@ Consulte o arquivo `ccipher` para obter mais detalhes.
 
 ### Segunda solução do algoritmo
 
+Array#rotate: Elimina a necessidade do operador módulo (%) ao deslocar arrays alfabéticos. <br>
+String#tr: Realiza substituições de forma eficiente, incluindo caracteres não alfabéticos (que são ignorados).
+
+Consulte o arquivo `cciphertr` para obter mais detalhes.
+
 ## Demonstração
 
 ### Olá Mundo
