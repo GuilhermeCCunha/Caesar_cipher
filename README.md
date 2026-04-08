@@ -39,6 +39,13 @@ git clone https://github.com/GuilhermeCCunha/Caesar_cipher.git
 
 You need to have Ruby installed on your Linux system.
 
+<blockquote>
+#!/usr/bin/env ruby
+</blockquote>
+
+This is called a **shebang**. It tells the system to use the Ruby interpreter to run the script. The `env` dynamically locates the Ruby interpreter based on your system's `PATH`. 
+This makes the script more portable.
+
 ### Creating Custom Commands
 
 Put the command below into your .bashrc
@@ -64,6 +71,7 @@ mkdir $HOME/bin
 # or
 mkdir -p $HOME/.local/bin
 ```
+
 Type the following command to copy files to the new directory.
 
 ```bash
