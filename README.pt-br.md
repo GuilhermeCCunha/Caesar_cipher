@@ -39,6 +39,13 @@ git clone https://github.com/GuilhermeCCunha/Caesar_cipher.git
 
 É necessário ter o Ruby instalado no seu sistema Linux.
 
+<blockquote>
+#!/usr/bin/env ruby
+</blockquote>
+
+Isso é chamado de **shebang**. Ele instrui o sistema a usar o interpretador Ruby para executar o script. O `env` localiza dinamicamente o interpretador Ruby com base no `PATH` do seu sistema.
+Isso torna o script mais portátil.
+
 ### Criando Comandos Personalizados
 
 Coloque o comando abaixo no seu arquivo .bashrc
