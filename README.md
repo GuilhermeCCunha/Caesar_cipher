@@ -5,6 +5,7 @@ English |
 
 [![GitHub repo size][github-img]][github-url]
 [![GitHub last commit][github-commit]][github-url]
+[![Ruby][ruby]][ruby-lang]
 
 <img width="406" height="375" alt="caesar_cipher_disk" src="https://github.com/user-attachments/assets/26b14417-b223-4e7a-b15d-06d95b5f71ec" />
 
@@ -154,3 +155,5 @@ Please ⭐️ this repository if you liked it!
 [github-img]: https://img.shields.io/github/repo-size/GuilhermeCCunha/Caesar_cipher?logo=github&style=flat-square
 [github-url]: https://github.com/GuilhermeCCunha/Caesar_cipher
 [github-commit]: https://img.shields.io/github/last-commit/GuilhermeCCunha/Caesar_cipher?logo=github&style=flat-square
+[ruby]: https://badgen.net/badge/icon/ruby?icon=ruby&label
+[ruby-lang]: https://ruby-lang.org/
